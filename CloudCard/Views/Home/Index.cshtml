@@ -1,0 +1,380 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <!-- META SECTION -->
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta content='IE=edge' http-equiv='X-UA-Compatible'>
+    <meta content='width=device-width, initial-scale=1' name='viewport'>
+</head>
+<body>
+    <div class='content lp-blueTheme'>
+        <p>
+            <span>
+                <header class='lp-block lp-floatingMenu lp-toggledMenu lp-product' id=''>
+                    <div class='lp-centeringWrapper'>
+                        <a href='/'>
+                            <img width="140" src="~/Content/logo_black.png" />
+                        </a>
+                        <ul class='lp-nav'>
+                            <li>
+                                <a href="#Overview">მიმოხილვა</a>
+                            </li>
+                            <li>
+                                <a href="#Features">მახასიათებლები</a>
+                            </li>
+                        </ul>
+                        <div class='lp-menuMobile'>
+                            <h5 class='lp-label'></h5>
+                            <ul class='lp-menuMobileList' id=''></ul>
+                        </div>
+                        <div class='lp-actions'>
+                            @*<a style="margin-right: 5px;" class="lp-btn lp-btnWhiteFont" data-try="true" target="" href="https://hub.unamo.com/signup">ავტორიზაცია</a>
+                            <a class="lp-btn lp-btnWhiteFont" data-try="true" target="" href="https://hub.unamo.com/signup">რეგისტრაცია</a>*@
+                            <div class='lp-languageSelect'>
+                                <label class='lp-currentLanguage lp-btn lp-btnWhite1' for='lp-langSelect'>
+                                    პროფილი
+                                </label>
+                                <ul class='lp-languagesList lp-selectMenu'>
+                                    <li>
+                                        <a href='/'>
+                                            <span class='lp-langName'>ავტორიზაცია</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href='/'>
+                                            <span class='lp-langName'>რეგისტრაცია</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <i class='lp-mobileMenuBtn lp-icon-hamburger'></i>
+                            <i class='lp-mobileMenuBtn lp-icon-close'></i>
+                        </div>
+                    </div>
+                </header>
+
+                <section class='lp-block lp-heroBlock lp-floatingMenuTrigger'>
+                    <div class='lp-centeringWrapper'>
+                        <header class='lp-topBar'>
+                            <figure class='lp-logo'>
+                                <a href='/'>
+                                    <img width="140" src="~/Content/logo_black.png" />
+                                </a>
+                            </figure>
+                            <nav class='lp-mainMenuContainer'>
+                                <ul class='lp-menuList'>
+                                    <li class='lp-hasSubmenu'>
+                                        <a href='#products'>
+                                            სერვისები
+                                        </a>
+                                        <ul class='lp-submenu lp-selectMenu'>
+                                            <li>
+                                                <a class='lp-linkWrapper' href='/search-engine-optimization' target=''>
+                                                    <h5 class='lp-title lp-logoUnamo lp-seo'>მომხმარებლებისთვის</h5>
+        <p class='lp-description'>Gain more traffic, improve your rankings and leave the competition behind.</p>
+        <p class='lp-fakeLink'>დეტალურად</p>
+        </a>
+        </li>
+        <li>
+            <a class='lp-linkWrapper' href='/social-media-monitoring' target=''>
+                <h5 class='lp-title lp-logoUnamo lp-conversion'>კომპანიებისთვის</h5>
+                <p class='lp-description'>Analyze all your social media data in one place and compare with competitors.</p>
+                <p class='lp-fakeLink'>დეტალურად</p>
+            </a>
+        </li>
+        </ul>
+        </li>
+        <li>
+            <a href='/university' target='_blank'>
+                ქლაუდქარდის შესახებ
+            </a>
+        </li>
+        <li>
+            <a href='/university' target='_blank'>
+                კონტაქტი
+            </a>
+        </li>
+        </ul>
+        <div class='lp-menuMobile'>
+            <h5 class='lp-label'></h5>
+            <ul class='lp-menuMobileList' id=''></ul>
+        </div>
+        </nav>
+        <div class='lp-actions'>
+            <div class='lp-languageSelect'>
+                <label class='lp-currentLanguage lp-btn lp-btnWhite1' for='lp-langSelect'>
+                    პროფილი
+                </label>
+                <ul class='lp-languagesList lp-selectMenu'>
+                    <li>
+                        <a href='/'>
+                            <span class='lp-langName'>ავტორიზაცია</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href='/'>
+                            <span class='lp-langName'>რეგისტრაცია</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>            
+            <div class='lp-languageSelect'>
+                <label class='lp-currentLanguage lp-btn lp-btnWhite'>
+                    EN
+                </label>
+            </div>
+            <i class='lp-mobileMenuBtn lp-icon-hamburger'></i>
+            <i class='lp-mobileMenuBtn lp-icon-close'></i>
+        </div>
+        </header>
+        <div class='lp-mainContentWrapper'>
+            <article class='lp-mainContent'>
+                <h1 class="lp-title">Web & Mobile Development</h1>
+                <h2 class='lp-description'></h2>
+            </article>
+            <section class='lp-macVectorFrame'>
+                <figure>
+                    <img width="460" height="285" src="https://unamo-cms.s3.amazonaws.com/replay-player.2x.png" alt="Replay player.2x" />
+                </figure>
+            </section>
+        </div>
+    </div>
+    </section>
+
+    <section class='lp-block lp-block1 lp-skipSeparation' id='Overview'>
+        <div class='lp-centeringWrapper'>
+            <ul class='lp-featuresList lp-horizontalList lp-textCentered'>
+                <li>
+                    <figure class='lp-featureIcon50 lp-centered'>
+                        <i class='lp-icon-play'></i>
+                    </figure>
+                    <h5 class='lp-header'>Session Replay</h5>
+                    <p>See precisely how users interact with your website to gain actionable insights.</p>
+                </li>
+                <li>
+                    <figure class='lp-featureIcon50 lp-centered'>
+                        <i class='lp-icon-heatmaps'></i>
+                    </figure>
+                    <h5 class='lp-header'>Heatmaps</h5>
+                    <p>Figure out if people are clicking on your important calls-to-actions to optimize for higher engagement.</p>
+                </li>
+                <li>
+                    <figure class='lp-featureIcon50 lp-centered'>
+                        <i class='lp-icon-form'></i>
+                    </figure>
+                    <h5 class='lp-header'>Form Analysis</h5>
+                    <p>Optimize your web forms to decrease any user frustrations and increase conversions.</p>
+                </li>
+                <li>
+                    <figure class='lp-featureIcon50 lp-centered'>
+                        <i class='lp-icon-layers'></i>
+                    </figure>
+                    <h5 class='lp-header'>Advanced Segments</h5>
+                    <p>Build customized behavior flows to see how users progress through your conversion funnel.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class='lp-block lp-block2' id='Features'>
+        <div class='lp-centeringWrapper'>
+            <div class='lp-blockContent lp-twoSections'>
+                <section class='lp-leftPanel'>
+                    <h2 class='lp-blockHeader'>Session Replay</h2>
+                    <p class='lp-blockDescription'>Understanding your users’ behavior doesn’t have to be complicated.</p>
+                    <ul class='lp-featuresList lp-verticalList'>
+                        <li>
+                            <figure class='lp-featureIcon40'>
+                                <i class='lp-icon-replay'></i>
+                            </figure>
+                            <article class='lp-featureDetails'>
+                                <h5 class='lp-header'>Accurate replays</h5>
+                                <p>Identify what influences your visitors while they’re interacting with your content, media, and calls-to- action.</p>
+                            </article>
+                        </li>
+                        <li>
+                            <figure class='lp-featureIcon40'>
+                                <i class='lp-icon-users'></i>
+                            </figure>
+                            <article class='lp-featureDetails'>
+                                <h5 class='lp-header'>User segmentation</h5>
+                                <p>Determine the differences of your most and least converting user behaviors.</p>
+                            </article>
+                        </li>
+                        <li>
+                            <figure class='lp-featureIcon40'>
+                                <i class='lp-icon-eye'></i>
+                            </figure>
+                            <article class='lp-featureDetails'>
+                                <h5 class='lp-header'>Actionable insights</h5>
+                                <p>Turn your insights into action in a way that charts and graphs could never support.</p>
+                            </article>
+                        </li>
+                    </ul>
+                </section>
+                <section class='lp-rightPanel'>
+                    <figure class='lp-imgBrowser'>
+                        <img width="490" height="410" src="https://unamo-cms.s3.amazonaws.com/session-replays.2x.png" alt="Session replays.2x" />
+                    </figure>
+                </section>
+            </div>
+        </div>
+    </section>
+
+    <section class='lp-block lp-block4' id=''>
+        <div class='lp-centeringWrapper'>
+            <h2 class='lp-blockHeader lp-textCentered lp-centered'>Heatmaps</h2>
+            <p class='lp-blockDescription lp-textCentered lp-centered'>Heatmaps provide a broad picture of where people focus their attention, the exact spot on a button the user clicks, and how long a user spends browsing "below the fold".</p>
+            <ul class='lp-featuresList lp-horizontalList lp-textCentered'>
+                <li>
+                    <figure class='lp-featureIcon60 lp-centered'>
+                        <i class='lp-icon-mouse'></i>
+                    </figure>
+                    <h5 class='lp-header'>Mouse clicks</h5>
+                    <p>See where your users are clicking on any page to discover how optimized your page is for your call-to-action.</p>
+                </li>
+                <li>
+                    <figure class='lp-featureIcon60 lp-centered'>
+                        <i class='lp-icon-cursor'></i>
+                    </figure>
+                    <h5 class='lp-header'>Mouse movements</h5>
+                    <p>Maximize your marketing insights by tracking a user’s mouse movements.</p>
+                </li>
+                <li>
+                    <figure class='lp-featureIcon60 lp-centered'>
+                        <i class='lp-icon-scroll'></i>
+                    </figure>
+                    <h5 class='lp-header'>Scrolling patterns</h5>
+                    <p>Find out how far a user scrolled down your page to locate any flaws in your content.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    </span></p>
+    <p>
+        <span>
+            <footer class='lp-block lp-mainFooter lp-skipSeparation' id=''>
+                <div class='lp-centeringWrapper'>
+                    <nav class='lp-footerNav'>
+                        <dl>
+                            <dt>
+                                <h5 class='lp-categoryTitle'>Products</h5>
+                            </dt>
+                            <dd>
+                                <a href='/search-engine-optimization' target=''>
+                                    Search Engine Optimization
+                                </a>
+                            </dd>
+                            <dd>
+                                <a href='/social-media-monitoring' target=''>
+                                    Social Media Monitoring
+                                </a>
+                            </dd>
+                            <dd>
+                                <a href='/conversion-web-analytics' target=''>
+                                    Conversion Web Analytics
+                                </a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <h5 class='lp-categoryTitle'>Company</h5>
+                            </dt>
+                            <dd>
+                                <a href='' target=''>
+
+                                </a>
+                            </dd>
+                            <dd>
+                                <a href='https://positionly.workable.com/' target='_blank'>
+                                    Jobs
+                                </a>
+                            </dd>
+                            <dd>
+                                <a href='/contact-us' target=''>
+                                    Contact us
+                                </a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <h5 class='lp-categoryTitle'>Knowledge</h5>
+                            </dt>
+                            <dd>
+                                <a href='/university' target='_blank'>
+                                    University
+                                </a>
+                            </dd>
+                            <dd>
+                                <a href='/faq' target=''>
+                                    FAQ
+                                </a>
+                            </dd>
+                            <dd>
+                                <a href='' target=''>
+
+                                </a>
+                            </dd>
+                        </dl>
+                    </nav>
+                    <footer class='lp-additionalActions lp-twoSections'>
+                        <div class='lp-leftPanel'>
+                            <ul class='lp-socialMediaList'>
+                                <li>
+                                    <a href='http://www.facebook.com/positionly' target='_blank'>
+                                        <figure class='lp-facebook'>
+                                            <i class='lp-icon-facebook'></i>
+                                        </figure>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='http://www.twitter.com/positionly' target='_blank'>
+                                        <figure class='lp-twitter'>
+                                            <i class='lp-icon-twitter'></i>
+                                        </figure>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='http://www.linkedin.com/company/positionly' target='_blank'>
+                                        <figure class='lp-linkedin'>
+                                            <i class='lp-icon-linkedin'></i>
+                                        </figure>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class='lp-rightPanel'>
+                            <ul class='lp-privacyList'>
+                                <li>
+                                    <a href='/terms-of-service' target=''>
+                                        Terms of Service
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='/privacy-policy' target=''>
+                                        Privacy policy
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='/use-of-cookies' target=''>
+                                        Use of Cookies
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </footer>
+                </div>
+            </footer>
+
+        </span>
+    </p>
+
+    </div>
+</body>
+</html>
